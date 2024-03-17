@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5.38rem;
+}
+
+.logo {
+  margin-bottom: 42px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading-primary {
+  font-size: 3rem;
+  margin-bottom: 17px;
+}
+
+.heading-primary span {
+  font-weight: 300;
+  color: #969696;
+}
+
+.heading-secondary {
+  color: #151f29;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.cta {
+  height: 90px;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 52px;
+}
+
+.email {
+  font: inherit;
+  font-size: 1rem;
+  color: #151f29;
+  width: 26.3rem;
+  height: 3.5rem;
+  border-radius: 50px;
+  border: 1px solid #c2d3ff;
+  padding: 1.25rem;
+  outline-color: #4f7df3;
+}
+
+.email::placeholder {
+  font-weight: 300;
+  color: #c2d3ff;
+}
+
+.error-message {
+  font-style: italic;
+  font-size: 12px;
+  color: #ff5263;
+  padding: 8px 30px;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn {
+  background-color: #4f7df3;
+  font-family: inherit;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 500;
+  width: 12.5rem;
+  height: 3.5rem;
+  border-radius: 50px;
+  box-shadow: 0 10px 20px rgba(186, 200, 255, 0.9);
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: rgba(79, 125, 243, 0.8);
+}
+
+.img {
+  width: 40rem;
+  margin-bottom: 74px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  padding-bottom: 30px;
+}
+
+footer p {
+  font-size: 12px;
+  color: #969696;
+}
+
+.social-media-icons {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.social-media-icons li {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #dcdada;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+ion-icon {
+  color: #4f7df3;
+  font-size: 15px;
+}
+
+.social-media-icons li:hover {
+  background-color: #4f7df3;
+}
+
+.social-media-icons li:hover ion-icon {
+  color: #fff;
+}
