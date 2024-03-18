@@ -24,6 +24,6 @@ btn.addEventListener("click", function (e) {
 
 // remove highlight/error message when keys are being input
 email.addEventListener("input", function () {
-  email.classList.remove("highlight-field");
   errorMessage.classList.add("hidden");
+  email.classList.remove("highlight-field");
 });
